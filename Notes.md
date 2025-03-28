@@ -34,3 +34,18 @@
 
 ## What is the core principle behind Tailwind CSS?
 - Utility First 
+
+## Setup Tailwind CSS 4 with CLI
+
+. Need Node js and npm
+. Install tailwind css.
+    - `npm install tailwindcss @tailwindcss/cli`
+. Make input css file. You can name anything
+    - `@import "tailwindcss";`
+. Run build command and generate output file
+    - `npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch`
+. Make HTML file and write code and link output.css.
+. Check auto suggestion with tailwind extension
+    - Tailwind CSS IntelliSense
+. Interview Questions - output.css - contain all tailwind classes.
+
