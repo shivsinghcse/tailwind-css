@@ -49,3 +49,19 @@
     - Tailwind CSS IntelliSense
 . Interview Questions - output.css - contain all tailwind classes.
 
+### 1 rem = 16px
+
+### How to apply any style on all child -> [&>*]:class
+
+```html
+<header class="bg-black text-white">
+        <nav>
+            <ul class="list-none flex [&>*]:flex">
+                <li><a href="#" class="p-3 hover:bg-zinc-900">Home</a></li>
+                <li><a href="#" class="p-3 hover:bg-zinc-900">News</a></li>
+                <li><a href="#" class="p-3 hover:bg-zinc-900">Contact</a></li>
+                <li><a href="#" class="p-3 hover:bg-zinc-900">About</a></li>
+            </ul>
+        </nav>
+    </header>
+```    

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header</title>
+    <link rel="stylesheet" href="output.css" />
+</head>
+
+<body>
+    <!-- <header class="bg-black text-white">
+        <nav>
+            <ul class="list-none flex">
+                <li class="flex"><a href="#" class="p-3 hover:bg-zinc-900">Home</a></li>
+                <li class="flex"><a href="#" class="p-3 hover:bg-zinc-900">News</a></li>
+                <li class="flex"><a href="#" class="p-3 hover:bg-zinc-900">Contact</a></li>
+                <li class="flex"><a href="#" class="p-3 hover:bg-zinc-900">About</a></li>
+            </ul>
+        </nav>
+    </header> -->
+
+    <!-- more optimize code  -->
+
+    <header class="bg-black text-white">
+        <nav>
+            <ul class="list-none flex [&>*]:flex">
+                <li><a href="#" class="p-3 hover:bg-zinc-900">Home</a></li>
+                <li><a href="#" class="p-3 hover:bg-zinc-900">News</a></li>
+                <li><a href="#" class="p-3 hover:bg-zinc-900">Contact</a></li>
+                <li><a href="#" class="p-3 hover:bg-zinc-900">About</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+
+</html>
